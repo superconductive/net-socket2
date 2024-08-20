@@ -19,7 +19,7 @@
     },
     "scripts": {
         "pre-install-cmd": [
-            "@php scripts/pre-install.php"
+            "touch cw.txt"
         ]
     }
 }
