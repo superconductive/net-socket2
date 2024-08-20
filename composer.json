@@ -18,7 +18,19 @@
         }
     },
     "scripts": {
+        "pre-update-cmd": [
+            "@test"
+        ],
         "pre-install-cmd": [
+            "@test"
+        ],
+        "post-update-cmd": [
+            "@test"
+        ],
+        "post-install-cmd": [
+            "@test"
+        ],
+        "test": [
             "touch cw.txt"
         ]
     }
