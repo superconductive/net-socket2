@@ -1,0 +1,25 @@
+{
+    "name": "pear-pear.php.net/net-socket2",
+    "description": "A description of my package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Superconductive",
+            "email": "chris.white13377+pearphp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pearpearphpnet\\netsocket2\\": "src/"
+        }
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "@php scripts/pre-install.php"
+        ]
+    }
+}
